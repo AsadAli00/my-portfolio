@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Artificial Intelligence Engineer | AWS Sagemaker (ML) | FULL Stack Developer"],
+      words: ["Artificial Intelligence Engineer | Data Scientist | FULL Stack Developer | AI Cloud Engineer "],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 5,
@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        I am a passionate and dedicated [ Artificail Intelligence | AWS ML | Frontend & backend] 
+        I am a passionate and dedicated [ Artificail Intelligence | Data Scientist | AI Cloud Engineer | Frontend & backend] 
         developer with 2+ years of experience in Python, Machine learning & Deep learning,
          tensorflow, scikit learn, pandas, numpy, reactjs, nodejs , mongoDB, Expressjs, react native, django ,
           flask and so on . I have a strong background in Artificial Inteligence,currently enrolled Master in AI.
