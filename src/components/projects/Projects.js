@@ -13,10 +13,7 @@ const Projects = () => {
   const [WebDev, setWebDev] = useState(false);
   const [MobileDev, setMobileDev] = useState(false);
   return (
-    <section
-      id="projects"
-      className="w-full py-20 border-b-[1px] border-b-black"
-    >
+    <div className='pt-10'>
       <div className="flex justify-center items-center text-center">
         <Title
           title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
@@ -129,7 +126,7 @@ const Projects = () => {
       {Python && <PythonProjetcs />}
       {WebDev && <WebDevProjects />}
       {MobileDev && <MobileDevProjects />}
-    </section>
+    </div>
   );
 }
 

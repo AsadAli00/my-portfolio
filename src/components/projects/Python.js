@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { PythonP1, PythonP2} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const PythonProjetcs = () => {
@@ -16,40 +16,19 @@ const PythonProjetcs = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
                 <ProjectsCard
-                    title="SOCIAL MEDIA CLONE"
+                    title="Web Scraping using Python Beautifulsoup"
                     des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                    src={projectOne}
+                    src={PythonP1}
+                    githubLink={"https://github.com/AsadAli00/Final-Assignment"}
+                    webpagelink={"https://github.com/AsadAli00/Final-Assignment"}
                 />
                 <ProjectsCard
-                    title="E-commerce Website"
-                    des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                    src={projectTwo}
-                />
-                <ProjectsCard
-                    title="Chatting App"
-                    des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                    src={projectThree}
-                />
-                <ProjectsCard
-                    title="SOCIAL MEDIA CLONE"
-                    des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                    src={projectThree}
-                />
-                <ProjectsCard
-                    title="E-commerce Website"
-                    des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                    src={projectOne}
-                />
-                <ProjectsCard
-                    title="Chatting App"
-                    des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                    src={projectTwo}
+                    title="Data visualization and feature Engineering using Python"
+                    des="Data visualization and feature engineering are essential steps in the data preprocessing phase of machine learning and data analysis"
+                    src={PythonP2}
+                    githubLink={"https://github.com/AsadAli00/Data-visualization-and-feature-Engineering"}
+                    webpagelink={"https://github.com/AsadAli00/Data-visualization-and-feature-Engineering"}
                 />
             </div>
         </section>
