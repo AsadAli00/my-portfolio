@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.7d390933.css",
-    "main.js": "/my-portfolio/static/js/main.8b99fb8e.js",
+    "main.css": "/my-portfolio/static/css/main.1ec705b1.css",
+    "main.js": "/my-portfolio/static/js/main.c851e423.js",
     "static/media/BannerImage.png": "/my-portfolio/static/media/BannerImage.ba1780ebae9209fe2504.png",
+    "static/media/PythonP2.png": "/my-portfolio/static/media/PythonP2.1112f54d11b81fe5c8d8.png",
+    "static/media/DLP4.jpg": "/my-portfolio/static/media/DLP4.04e3ff599d29c94662cb.jpg",
+    "static/media/PythonP1.jpg": "/my-portfolio/static/media/PythonP1.6be38c13d1de50a58e5a.jpg",
     "static/media/contactImg.png": "/my-portfolio/static/media/contactImg.8ddfbfd11798f881db54.png",
     "static/media/testimonialOne.png": "/my-portfolio/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
-    "static/media/projectThree.jpeg": "/my-portfolio/static/media/projectThree.47442baa3158613330ab.jpeg",
     "static/media/testimonialTwo.png": "/my-portfolio/static/media/testimonialTwo.c6df2773c486964035d9.png",
-    "static/media/projectTwo.jpg": "/my-portfolio/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
+    "static/media/projectThree.jpeg": "/my-portfolio/static/media/projectThree.8c5f5dcd9bbd318e6fe4.jpeg",
     "index.html": "/my-portfolio/index.html",
-    "main.7d390933.css.map": "/my-portfolio/static/css/main.7d390933.css.map",
-    "main.8b99fb8e.js.map": "/my-portfolio/static/js/main.8b99fb8e.js.map"
+    "main.1ec705b1.css.map": "/my-portfolio/static/css/main.1ec705b1.css.map",
+    "main.c851e423.js.map": "/my-portfolio/static/js/main.c851e423.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d390933.css",
-    "static/js/main.8b99fb8e.js"
+    "static/css/main.1ec705b1.css",
+    "static/js/main.c851e423.js"
   ]
 }
