@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../layouts/Title'
-// import { projectOne, projectTwo, projectThree } from "../../assets/index";
-// import ProjectsCard from './ProjectsCard';
+import {MobileP1 } from "../../assets/index";
+import ProjectsCard from './ProjectsCard';
 
 const MobileDevProjects = () => {
     return (
@@ -15,42 +15,13 @@ const MobileDevProjects = () => {
                 />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-                {/* <ProjectsCard
-                    title="SOCIAL MEDIA CLONE"
-                    des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                    src={projectOne}
-                />
                 <ProjectsCard
-                    title="E-commerce Website"
-                    des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                    src={projectTwo}
+                    title="Blood Bank Android/IOS APP"
+                    des="Project involves developing a cross-platform mobile application that connects blood donors with blood recipients. The app is built using React Native, allowing it to run on both Android and iOS devices"
+                    src={MobileP1}
+                    githubLink={"https://github.com/AsadAli00/Blood-Bank-App"}
+                    webpagelink={"https://github.com/AsadAli00/Blood-Bank-App"}
                 />
-                <ProjectsCard
-                    title="Chatting App"
-                    des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                    src={projectThree}
-                />
-                <ProjectsCard
-                    title="SOCIAL MEDIA CLONE"
-                    des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                    src={projectThree}
-                />
-                <ProjectsCard
-                    title="E-commerce Website"
-                    des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                    src={projectOne}
-                />
-                <ProjectsCard
-                    title="Chatting App"
-                    des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                    src={projectTwo}
-                /> */}
             </div>
         </section>
 

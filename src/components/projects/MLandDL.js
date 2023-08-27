@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree , DLP4} from "../../assets/index";
+import { projectOne, projectTwo, projectThree , DLP4, DLP5 , DLP6} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const MLandDL = () => {
@@ -42,6 +42,20 @@ const MLandDL = () => {
                     src={DLP4}
                     githubLink={"https://github.com/AsadAli00/Pakistan-Sign-Language-Detection-using-Pretrained-CNN"}
                     webpagelink={"https://github.com/AsadAli00/Pakistan-Sign-Language-Detection-using-Pretrained-CNN"}
+                />
+                <ProjectsCard
+                    title="Factorization Machine with sparse Dataset using AWS Sagemaker"
+                    des="Factorization Machines (FMs) are a type of machine learning model that excel at handling sparse datasets, which are datasets where most of the features have missing or zero values. FMs are particularly effective for recommendation systems"
+                    src={DLP5}
+                    githubLink={"https://github.com/AsadAli00/Factorization-machines-Algorithm-with-sparse-dataset-Amazon-Sagemaker-"}
+                    webpagelink={"https://github.com/AsadAli00/Factorization-machines-Algorithm-with-sparse-dataset-Amazon-Sagemaker-"}
+                />
+                 <ProjectsCard
+                    title="Housing Price Prediction By using AWS SDK"
+                    des="AWS SDK provides a set of tools and APIs that allow developers to interact with various AWS services, such as AWS SageMaker for machine learning tasks"
+                    src={DLP6}
+                    githubLink={"https://github.com/AsadAli00/Housing-Regression-Problem-Deep-Learning-By-Amzaon-SDK"}
+                    webpagelink={"https://github.com/AsadAli00/Housing-Regression-Problem-Deep-Learning-By-Amzaon-SDK"}
                 />
             </div>
         </section>
