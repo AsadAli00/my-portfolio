@@ -16,7 +16,8 @@ import WebP3 from './images/projects/WEBP3.png';
 import WebP4 from './images/projects/WEBP4.PNG';
 import WebP5 from './images/projects/WEBP5.PNG';
 import quote from "./images/testmonial/quote.png";
-import MobileP1 from './images/projects/MobileP1.png'
+import MobileP1 from './images/projects/MobileP1.png';
+import Testimonial1 from './images/testmonial/Testimonial1.jpg'
 import contactImg from "./images/contact/contactImg.png";
 
 export {
@@ -39,5 +40,6 @@ export {
   WebP3,
   WebP4,
   WebP5,
-  MobileP1
+  MobileP1,
+  Testimonial1
 };
